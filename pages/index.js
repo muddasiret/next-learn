@@ -38,6 +38,7 @@ export async function getStaticProps() {
         }))
         .reverse(),
     },
+    revalidate: 1,
   };
 }
 
