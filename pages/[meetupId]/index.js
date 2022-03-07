@@ -8,6 +8,7 @@ const MeetingDetails = (props) => {
       <Head>
         <title>{props.details.title}</title>
         <meta name="description" content={props.details.description} />
+        <meta property="og:image" content={props.details.image} key="ogimage" />
       </Head>
       <p>{props.details._id}</p>
       <MeetupDetail
